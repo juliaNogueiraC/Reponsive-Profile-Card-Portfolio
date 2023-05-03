@@ -60,6 +60,7 @@ body {
   object-fit: cover;
   border-radius: 50%;
   border: 3px solid #fff;
+  outline: #008F7A solid 4px;
 
 }
 
