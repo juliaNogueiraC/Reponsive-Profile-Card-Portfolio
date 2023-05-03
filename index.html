@@ -1,23 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
+
+  <title>Profile Card UI Design</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 
 <body>
-  Hello world
   <script src="script.js"></script>
+  <div class="profile-card">
+    <div class="image">
+      <img src="/img/euu2.jpeg" alt="" class="profile-img">
+    </div>
 
-  <!--
-  This script places a badge on your repl's full-browser view back to your repl's cover
-  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-  teal, blue, blurple, magenta, pink!
-  -->
-  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+    <div class="text-data">
+
+      <span class="name"> Julia Nogueira </span>
+      <span class="job"> Designer & Dev </span>
+    </div>
+
+    <div class="media-buttons">
+      <a href="https://www.instagram.com/euphoriainchrist/" style="background: #FF6F91" class="link">
+        <i class='bx bxl-instagram'></i>
+      </a>
+
+
+      <a href="https://www.linkedin.com/in/julianogueirac/" style="background: #0081CF" class="link">
+        <i class='bx bxl-linkedin-square'></i>
+      </a>
+
+      <a href="https://www.behance.net/jlianogueira4" style="background: #FFC75F" class="link">
+        <i class='bx bxl-behance'></i>
+      </a>
+
+      <a href="https://github.com/juliaNogueiraC" style="background: #845EC2" class="link">
+        <i class='bx bxl-github'></i>
+      </a>
+
+    </div>
+
+    <div class="buttons">
+      <button class="button">contact me</button>
+      <button class="button">subscribe</button>
+    </div>
+
+    <div class="analytics">
+      <div class="data">
+        <i class='bx bx-heart'></i>
+
+        <span class="number">60k</span>
+      </div>
+
+      <div class="data">
+
+        <i class='bx bx-message-rounded'></i>
+        <span class="number">60k</span>
+      </div>
+
+      <div class="data">
+        <i class='bx bx-share'></i>
+        <span class="number">60k</span>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
 </body>
+
 
 </html>
